@@ -95,16 +95,19 @@ text-decoration:none;
 }
 
 .video-container{
-background:white;
-padding:15px;
-box-shadow:0 5px 20px rgba(0,0,0,0.15);
-max-width:700px;
-margin:auto;
+    background:white;
+    padding:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.15);
+    max-width:275px;   /* ลดขนาดวิดีโอ */
+    margin:auto;
+    border-radius:10px;
 }
 
 .video{
-width:100%;
-height:auto;
+    width:100%;
+    height:auto;
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
 }
 
 .video-caption{
